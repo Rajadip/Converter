@@ -19,7 +19,7 @@ videoPath = None
 
 def browse(parent=None):
     global videoPath
-    videoPath = tk.filedialog.askopenfilename(parent=parent, initialdir=r'/media/root/RajaDip/Rd/Media/Video/Marathi', title='Choose a file')
+    videoPath = tk.filedialog.askopenfilename(parent=parent, initialdir=r'/', title='Choose a file')
     # print(videoPath)
 
     # for video in videoPath:
